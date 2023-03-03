@@ -16,4 +16,4 @@ const mapStateToProps = (state) => {
 };
 
 // Add code here
-export default connect(mapStateToProps, { song })(SongList);
+export default connect(mapStateToProps)(SongList);
